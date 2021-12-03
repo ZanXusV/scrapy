@@ -1,6 +1,6 @@
 # Tests requirements
 mock
-mitmproxy==0.10.1
+mitmproxy==7.0.3
 netlib==0.10.1
 pytest==2.9.2
 pytest-twisted
@@ -11,3 +11,5 @@ testfixtures
 # optional for shell wrapper tests
 bpython
 ipython
+pillow>=8.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
